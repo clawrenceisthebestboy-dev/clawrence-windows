@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Install Clawrence — Your Personal AI Assistant</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#080E0C;color:#f0ede8;font-family:'Segoe UI',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center}
+.wrap{max-width:560px;width:100%;padding:40px 24px;text-align:center}
+.lobster{font-size:5rem;margin-bottom:12px;animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+h1{font-size:2.2rem;font-weight:800;margin-bottom:8px}
+h1 span{color:#D4847A}
+.sub{color:#8ECFC4;font-size:1rem;margin-bottom:36px}
+.card{background:#0f1a17;border:1px solid rgba(212,132,122,.2);border-radius:16px;padding:32px;margin-bottom:28px}
+.card h2{font-size:1.1rem;margin-bottom:16px;color:#D4847A}
+.steps{list-style:none;text-align:left;display:flex;flex-direction:column;gap:14px}
+.steps li{display:flex;gap:14px;align-items:flex-start}
+.num{background:#D4847A;color:#080E0C;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.85rem;flex-shrink:0;margin-top:1px}
+.steps p{font-size:.93rem;color:#c8c0b8;line-height:1.5}
+.steps strong{color:#f0ede8}
+.btn{display:inline-block;background:#D4847A;color:#080E0C;text-decoration:none;padding:16px 36px;border-radius:10px;font-size:1.15rem;font-weight:800;margin-bottom:14px;transition:.2s;width:100%}
+.btn:hover{background:#c8924a;transform:translateY(-2px)}
+.cmd{background:#0a0a0a;border:1px solid #2a2a2a;border-radius:8px;padding:14px 18px;font-family:monospace;font-size:.88rem;color:#8ECFC4;text-align:left;margin-top:14px;word-break:break-all}
+.note{font-size:.78rem;color:#555;margin-top:10px}
+.badge{display:inline-block;background:rgba(142,207,196,.1);border:1px solid rgba(142,207,196,.25);color:#8ECFC4;padding:4px 12px;border-radius:20px;font-size:.78rem;margin-bottom:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="lobster">🦞</div>
+  <h1>Meet <span>Clawrence</span></h1>
+  <p class="sub">Your personal AI assistant — running on your computer, always available</p>
+  <div class="badge">Windows · One-Click Setup · Takes 3 Minutes</div>
+
+  <div class="card">
+    <h2>How to Install</h2>
+    <ol class="steps">
+      <li><div class="num">1</div><p><strong>Download the installer</strong> using the button below</p></li>
+      <li><div class="num">2</div><p><strong>Right-click</strong> the downloaded file → <strong>Run with PowerShell</strong><br><span style="color:#666;font-size:.82rem">(If Windows asks permission, click "Yes")</span></p></li>
+      <li><div class="num">3</div><p><strong>Wait about 2 minutes</strong> while it installs automatically</p></li>
+      <li><div class="num">4</div><p>Open <strong>Telegram</strong> and message <strong>@jutes69_bot</strong> — Clawrence is ready!</p></li>
+    </ol>
+  </div>
+
+  <a class="btn" href="install.ps1" download="install-clawrence.ps1">⬇ Download Clawrence Installer</a>
+  <p class="note">Windows 10 or 11 · ~50 MB · Free</p>
+
+  <div class="card" style="margin-top:24px">
+    <h2>Or run this in PowerShell as Admin</h2>
+    <div class="cmd">irm https://clawrenceisthebestboy-dev.github.io/clawrence-windows/install.ps1 | iex</div>
+    <p style="font-size:.78rem;color:#555;margin-top:8px">PowerShell → Run as Administrator → paste the command above</p>
+  </div>
+
+  <p style="color:#333;font-size:.75rem;margin-top:28px">Built by Clawrence 🦞 · Powered by OpenClaw</p>
+</div>
+</body>
+</html>
